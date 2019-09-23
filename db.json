@@ -1,7 +1,17 @@
 {
   "posts": [
     { "id": 1,
-      "title": "Lorem ipsum dolor sit amet.",
+      "title": "Deploying an Angular App to Netlify.",
+      "content" : "Mon super article",
+      "userId": 1
+    },
+    { "id": 2,
+      "title": "Deploying an Angular App to Netlify.",
+      "content" : "Mon super article",
+      "userId": 1
+    },
+    { "id": 3,
+      "title": "Build Your First Angular Website Courses.",
       "content" : "Mon super article",
       "userId": 1
     }

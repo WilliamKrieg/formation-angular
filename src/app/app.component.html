@@ -1,0 +1,8 @@
+<ul class="list-group" *ngIf="posts">
+  <li
+  class="list-group-item"
+  [class.active]="testIfPostIsSelected(post)"
+  *ngFor="let post of posts" (click)="postSelected = post">
+  {{post.title}}
+  </li>
+</ul>

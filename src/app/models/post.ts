@@ -1,10 +1,14 @@
 import { User } from './user';
 
 export class Post {
-  private id: number = null;
+  public id: number = null;
   public title = '';
   public content = '';
   public user: User;
 
-  constructor() {}
+  constructor(object = {} = null) {
+    if (object) {
+      Object.assign(this, object);
+    }
+  }
 }
