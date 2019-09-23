@@ -1,0 +1,23 @@
+{
+  "posts": [
+    { "id": 1,
+      "title": "Lorem ipsum dolor sit amet.",
+      "content" : "Mon super article",
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content":"Mon super commentaire",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id" : 1,
+      "email" : "john.doe@test.com",
+      "username" : "John Doe"
+    }
+  ]
+}
